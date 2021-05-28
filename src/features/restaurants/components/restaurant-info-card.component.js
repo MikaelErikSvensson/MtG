@@ -10,42 +10,42 @@ import { Spacer } from "../../../components/spacer/spacer.component";
 import { Text } from "../../../components/typography/text.component";
 import { Icon, Info, Section, SectionEnd, Rating, RestaurantCard, RestaurantCardCover } from "./restaurant-info-card.styles";
 
-const mockRestaurant = {
-  name: "Zocalo",
-  icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-  photos: ["https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg"],
-  address: "100 iron street",
-  isOpenNow: true,
-  rating: 4,
-  isClosedTemporarily: true,
-};
+// const mockRestaurant = {
+//   name: "Zocalo",
+//   icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+//   photos: ["https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg"],
+//   address: "100 iron street",
+//   isOpenNow: true,
+//   rating: 4,
+//   isClosedTemporarily: true,
+// };
 
 export const RestaurantInfoCard = ({ restaurant }) => {
-  const ratingArray = Array.from(new Array(Math.floor(mockRestaurant.rating)));
+  const ratingArray = Array.from(new Array(Math.floor(restaurant.rating)));
 
   return (
     <>
-      <RestaurantCard>
-        <RestaurantCardCover key={mockRestaurant.name} source={{ uri: mockRestaurant.photos[0] }} />
+      <RestaurantCard elevation={5}>
+        <RestaurantCardCover key={restaurant.name} source={{ uri: restaurant.photos[0] }} />
         <Info>
-          <Text variant="label">{mockRestaurant.name}</Text>
+          <Text variant="label">{restaurant.name}</Text>
           <Section>
             <Rating>
-              {ratingArray.map(() => {
-                return <SvgXml xml={star} width={20} height={20} />;
+              {ratingArray.map((_, i) => {
+                return <SvgXml key={`star-${restaurant.placeId}-${i}`} xml={star} width={20} height={20} />;
               })}
             </Rating>
             <SectionEnd>
-              {mockRestaurant.isClosedTemporarily && <Text variant="error">CLOSED TEMPORARILY</Text>}
+              {restaurant.isClosedTemporarily && <Text variant="error">CLOSED TEMPORARILY</Text>}
               <Spacer position="left" size="large">
-                {mockRestaurant.isOpenNow && <SvgXml xml={open} width={20} height={20} />}
+                {restaurant.isOpenNow && <SvgXml xml={open} width={20} height={20} />}
               </Spacer>
               <Spacer position="left" size="large">
-                <Icon source={{ uri: mockRestaurant.icon }} />
+                <Icon source={{ uri: restaurant.icon }} />
               </Spacer>
             </SectionEnd>
           </Section>
-          <Text variant="caption">{mockRestaurant.address}</Text>
+          <Text variant="caption">{restaurant.address}</Text>
         </Info>
       </RestaurantCard>
     </>
