@@ -1,17 +1,15 @@
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
-import { StyleSheet, StatusBar, Text } from "react-native";
+import { Text } from "react-native";
 import { ThemeProvider } from "styled-components/native";
 import { useFonts as useOswald, Oswald_400Regular } from "@expo-google-fonts/oswald";
 import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
-import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons } from "@expo/vector-icons";
 
 import { SafeArea } from "./src/components/utility/safe-area.component";
-
 import { theme } from "./src/infrastructure/theme/index";
-import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurants.screen";
+import { Navigation } from "./src/infrastructure/navigation/index";
 
 import { RestaurantsContextProvider } from "./src/services/restaurants/restaurants.context";
 import { LocationContextProvider } from "./src/services/location/location.context";
@@ -62,19 +60,7 @@ export default function App() {
       <ThemeProvider theme={theme}>
         <LocationContextProvider>
           <RestaurantsContextProvider>
-            <NavigationContainer>
-              <Tab.Navigator
-                screenOptions={screenOptions}
-                tabBarOptions={{
-                  activeTintColor: "tomato",
-                  inactiveTintColor: "gray",
-                }}
-              >
-                <Tab.Screen name="Restaurants" component={RestaurantsScreen} />
-                <Tab.Screen name="Map" component={MapScreen} />
-                <Tab.Screen name="Settings" component={SettingsScreen} />
-              </Tab.Navigator>
-            </NavigationContainer>
+            <Navigation />
             <ExpoStatusBar style="auto" />
           </RestaurantsContextProvider>
         </LocationContextProvider>
