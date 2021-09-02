@@ -16,14 +16,14 @@ export const MapScreen = ({ navigation }) => {
   const { location } = useContext(LocationContext);
   const { restaurants = [] } = useContext(RestaurantsContext);
 
-  const [latDelta, setLagDelta] = useState(0);
+  const [latDelta, setLatDelta] = useState(0);
   const { lat, lng, viewport } = location;
 
   useEffect(() => {
     const northeastLat = viewport.northeast.lat;
     const southwestLat = viewport.southwest.lat;
 
-    setLagDelta(northeastLat - southwestLat);
+    setLatDelta(northeastLat - southwestLat);
   }, [location, viewport]);
 
   return (
