@@ -36,19 +36,17 @@ const screenOptions = ({ route }) => {
 export const AppNavigator = () => {
   return (
     <>
-      <NavigationContainer>
-        <Tab.Navigator
-          screenOptions={screenOptions}
-          tabBarOptions={{
-            activeTintColor: "tomato",
-            inactiveTintColor: "gray",
-          }}
-        >
-          <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />
-          <Tab.Screen name="Map" component={MapScreen} />
-          <Tab.Screen name="Settings" component={SettingsScreen} />
-        </Tab.Navigator>
-      </NavigationContainer>
+      <Tab.Navigator
+        screenOptions={screenOptions}
+        tabBarOptions={{
+          activeTintColor: "tomato",
+          inactiveTintColor: "gray",
+        }}
+      >
+        <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />
+        <Tab.Screen name="Map" component={MapScreen} />
+        <Tab.Screen name="Settings" component={SettingsScreen} />
+      </Tab.Navigator>
     </>
   );
 };
