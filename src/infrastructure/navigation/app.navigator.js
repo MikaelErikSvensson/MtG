@@ -8,7 +8,11 @@ import { Ionicons } from "@expo/vector-icons";
 import { MapScreen } from "../../features/map/screens/map.screen";
 import { SafeArea } from "../../components/utility/safe-area.component";
 import { RestaurantsScreen } from "../../features/restaurants/screens/restaurants.screen";
+import { SettingsScreen } from "../../features/settings/screens/settings.screen";
+
 import { RestaurantsNavigator } from "../navigation/restaurants.navigator";
+import { SettingsNavigator } from "../navigation/settings.navigator";
+
 import { AuthenticationContext } from "../../services/authentication/authentication.context";
 import { RestaurantsContextProvider } from "../../services/restaurants/restaurants.context";
 import { LocationContextProvider } from "../../services/location/location.context";
@@ -22,16 +26,15 @@ const TAB_ICON = {
   Settings: "md-settings",
 };
 
-const SettingsScreen = () => {
-  const { onLogout } = useContext(AuthenticationContext);
-
-  return (
-    <SafeArea>
-      <Text>Settings</Text>
-      <Button title="logout" onPress={() => onLogout()} />
-    </SafeArea>
-  );
-};
+// const SettingsScreen = () => {
+//   const { onLogout } = useContext(AuthenticationContext);
+//   return (
+//     <SafeArea>
+//       <Text>Settings</Text>
+//       <Button title="logout" onPress={() => onLogout()} />
+//     </SafeArea>
+//   );
+// };
 
 const tabBarIcon = () => <Ionicons name={"iconName"} size={size} color={color} />;
 
@@ -54,7 +57,7 @@ export const AppNavigator = () => {
           >
             <Tab.Screen name="Restaurants" component={RestaurantsNavigator} />
             <Tab.Screen name="Map" component={MapScreen} />
-            <Tab.Screen name="Settings" component={SettingsScreen} />
+            <Tab.Screen name="Settings" component={SettingsNavigator} />
           </Tab.Navigator>
         </RestaurantsContextProvider>
       </LocationContextProvider>
