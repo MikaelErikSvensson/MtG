@@ -1,5 +1,7 @@
-import React, { useContext } from "react";
+import React, { useContext, useState, useCallback } from "react";
+import { TouchableOpacity } from "react-native";
 import styled from "styled-components/native";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 import { List, Avatar } from "react-native-paper";
 import { Text } from "../../../components/typography/text.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
@@ -17,10 +19,11 @@ const AvatarContainer = styled.View`
 
 export const SettingsScreen = ({ navigation }) => {
   const { onLogout, user } = useContext(AuthenticationContext);
+
   return (
     <SafeArea>
       <AvatarContainer>
-        <Avatar.Icon size={90} icon="human" backgroundColor="#2182BD" />
+        <Avatar.Icon size={70} icon="account" backgroundColor="#2182BD" />
         <Spacer position="top" size="large">
           <Text variant="label">{user.email}</Text>
         </Spacer>
