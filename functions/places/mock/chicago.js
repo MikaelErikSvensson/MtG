@@ -20,7 +20,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Fairmont Chicago - Millennium Park",
       opening_hours: {
         open_now: true,
@@ -42,7 +43,13 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["lodging", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2085,
       vicinity: "200 North Columbus Drive, Chicago",
     },
@@ -64,7 +71,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Trump International Hotel & Tower® Chicago",
       opening_hours: {
         open_now: true,
@@ -85,7 +93,16 @@ module.exports = {
       rating: 4.1,
       reference: "",
       scope: "",
-      types: ["spa", "lodging", "restaurant", "food", "gym", "health", "point_of_interest", "establishment"],
+      types: [
+        "spa",
+        "lodging",
+        "restaurant",
+        "food",
+        "gym",
+        "health",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2624,
       vicinity: "401 North Wabash Avenue, Chicago",
     },
@@ -107,7 +124,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Swissotel Chicago",
       opening_hours: {
         open_now: true,
@@ -128,7 +146,13 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["lodging", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 4059,
       vicinity: "323 East Wacker Drive, Chicago",
     },
@@ -150,7 +174,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Lou Malnati's Pizzeria",
       opening_hours: {
         open_now: true,
@@ -172,7 +197,14 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["meal_delivery", "meal_takeaway", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_delivery",
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 6103,
       vicinity: "805 South State Street, Chicago",
     },
@@ -194,7 +226,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Siena Tavern",
       opening_hours: {
         open_now: true,
@@ -216,7 +249,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1906,
       vicinity: "51 West Kinzie Street, Chicago",
     },
@@ -238,7 +277,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Petterino's",
       opening_hours: {
         open_now: true,
@@ -260,7 +300,13 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1255,
       vicinity: "150 North Dearborn Street, Chicago",
     },
@@ -282,7 +328,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Giordano's",
       opening_hours: {
         open_now: true,
@@ -304,7 +351,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["meal_takeaway", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 6816,
       vicinity: "223 West Jackson Boulevard, Chicago",
     },
@@ -326,7 +379,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Gage",
       opening_hours: {
         open_now: true,
@@ -348,7 +402,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2771,
       vicinity: "24 South Michigan Avenue, Chicago",
     },
@@ -370,7 +430,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Yolk - South Loop",
       opening_hours: {
         open_now: true,
@@ -392,7 +453,14 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["cafe", "restaurant", "food", "point_of_interest", "store", "establishment"],
+      types: [
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment",
+      ],
       user_ratings_total: 3098,
       vicinity: "1120 South Michigan Avenue, Chicago",
     },
@@ -414,7 +482,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "M Burger",
       permanently_closed: true,
       photos: [
@@ -455,7 +524,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
       name: "Wildberry Pancakes & Cafe",
       opening_hours: {
         open_now: true,
@@ -477,7 +547,13 @@ module.exports = {
       rating: 4.6,
       reference: "",
       scope: "",
-      types: ["cafe", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "cafe",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 5639,
       vicinity: "130 East Randolph Street, Chicago",
     },
@@ -499,7 +575,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Berghoff Restaurant",
       permanently_closed: true,
       photos: [
@@ -541,7 +618,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Lou Mitchell's",
       opening_hours: {
         open_now: true,
@@ -585,7 +663,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "South Branch Tavern and Grille",
       permanently_closed: true,
       photos: [
@@ -605,7 +684,13 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1078,
       vicinity: "100 South Wacker Drive, Chicago",
     },
@@ -627,7 +712,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Sweetwater Tavern and Grille",
       permanently_closed: true,
       photos: [
@@ -647,7 +733,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2203,
       vicinity: "225 Michigan Avenue, Chicago",
     },
@@ -669,7 +761,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "Buddy Guy's Legends",
       photos: [
         {
@@ -688,7 +781,14 @@ module.exports = {
       rating: 4.6,
       reference: "",
       scope: "",
-      types: ["night_club", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2118,
       vicinity: "700 South Wabash Avenue, Chicago",
     },
@@ -710,7 +810,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Frontera Grill",
       opening_hours: {
         open_now: true,
@@ -754,7 +855,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "One North Kitchen & Bar",
       permanently_closed: true,
       photos: [
@@ -774,7 +876,13 @@ module.exports = {
       rating: 4.1,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 322,
       vicinity: "1 North Upper Wacker Drive, Chicago",
     },
@@ -796,7 +904,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "312 Chicago",
       opening_hours: {
         open_now: true,
@@ -818,7 +927,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 810,
       vicinity: "136 North LaSalle Street, Chicago",
     },
@@ -840,7 +955,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Chicago Cut Steakhouse",
       opening_hours: {
         open_now: true,
@@ -862,7 +978,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1860,
       vicinity: "300 North LaSalle Drive, Chicago",
     },

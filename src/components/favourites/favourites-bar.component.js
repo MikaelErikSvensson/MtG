@@ -1,33 +1,34 @@
-import React, { useContext } from "react";
-import styled from "styled-components/native";
+import React from "react";
 import { ScrollView, TouchableOpacity } from "react-native";
+import styled from "styled-components/native";
 import { Spacer } from "../spacer/spacer.component";
-import { Text } from "../typography/text.component";
 import { CompactRestaurantInfo } from "../restaurant/compact-restaurant-info.component";
+import { Text } from "../typography/text.component";
 
-const FavoritesWrapper = styled.View`
+const FavouritesWrapper = styled.View`
   padding: 10px;
 `;
-export const FavoritesBar = ({ favorites, onNavigate }) => {
-  if (!favorites.length) {
+export const FavouritesBar = ({ favourites, onNavigate }) => {
+  if (!favourites.length) {
     return null;
   }
   return (
-    <FavoritesWrapper>
+    <FavouritesWrapper>
       <Spacer variant="left.large">
-        <Text variant="caption">Favorites</Text>
+        <Text variant="caption">Favourites</Text>
       </Spacer>
+
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        {favorites.map((restaurant) => {
+        {favourites.map((restaurant) => {
           const key = restaurant.name;
           return (
             <Spacer key={key} position="left" size="medium">
               <TouchableOpacity
-                onPress={() => {
+                onPress={() =>
                   onNavigate("RestaurantDetail", {
                     restaurant,
-                  });
-                }}
+                  })
+                }
               >
                 <CompactRestaurantInfo restaurant={restaurant} />
               </TouchableOpacity>
@@ -35,6 +36,6 @@ export const FavoritesBar = ({ favorites, onNavigate }) => {
           );
         })}
       </ScrollView>
-    </FavoritesWrapper>
+    </FavouritesWrapper>
   );
 };

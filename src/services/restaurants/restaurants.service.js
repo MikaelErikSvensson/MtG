@@ -1,12 +1,14 @@
 import camelize from "camelize";
+import { host, isMock } from "../../utils/env";
 
 export const restaurantsRequest = (location) => {
-  return fetch(`https://europe-west1-mealstogo-9d2fb.cloudfunctions.net/placesNearby?location=${location}`)
-    .then((res) => {
+  return fetch(`${host}/placesNearby?location=${location}&mock=${isMock}`).then(
+    (res) => {
       return res.json();
-    })
-    .catch((err) => console.log(err));
+    }
+  );
 };
+
 export const restaurantsTransform = ({ results = [] }) => {
   const mappedResults = results.map((restaurant) => {
     return {
@@ -16,5 +18,6 @@ export const restaurantsTransform = ({ results = [] }) => {
       isClosedTemporarily: restaurant.business_status === "CLOSED_TEMPORARILY",
     };
   });
+
   return camelize(mappedResults);
 };

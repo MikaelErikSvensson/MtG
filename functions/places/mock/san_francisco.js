@@ -20,7 +20,8 @@ module.exports = {
           },
         },
       },
-      ix: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      ix:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Zuni Café",
       opening_hours: {
         open_now: true,
@@ -42,7 +43,14 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["cafe", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1675,
       vicinity: "1658 Market Street, San Francisco",
     },
@@ -64,7 +72,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Brenda's French Soul Food",
       opening_hours: {
         open_now: true,
@@ -108,7 +117,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "DNA Lounge",
       opening_hours: {
         open_now: false,
@@ -130,7 +140,15 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["night_club", "cafe", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "night_club",
+        "cafe",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1284,
       vicinity: "375 11th Street, San Francisco",
     },
@@ -152,7 +170,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Absinthe Brasserie & Bar",
       opening_hours: {
         open_now: false,
@@ -174,7 +193,13 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1405,
       vicinity: "398 Hayes Street, San Francisco",
     },
@@ -196,7 +221,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "YH - BEIJING",
       opening_hours: {
         open_now: true,
@@ -240,7 +266,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Zeitgeist",
       opening_hours: {
         open_now: false,
@@ -262,7 +289,13 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2488,
       vicinity: "199 Valencia Street, San Francisco",
     },
@@ -284,7 +317,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Pancho Villa Taqueria",
       opening_hours: {
         open_now: true,
@@ -328,7 +362,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Monk's Kettle",
       opening_hours: {
         open_now: false,
@@ -350,7 +385,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["restaurant", "bar", "food", "point_of_interest", "establishment"],
+      types: [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1392,
       vicinity: "3141 16th Street, San Francisco",
     },
@@ -372,7 +413,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "Bar Agricole",
       permanently_closed: true,
       photos: [
@@ -392,7 +434,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 490,
       vicinity: "355 11th Street, San Francisco",
     },
@@ -414,7 +462,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "SoMa StrEat Food Park",
       opening_hours: {
         open_now: true,
@@ -436,7 +485,14 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["hair_care", "restaurant", "food", "health", "point_of_interest", "establishment"],
+      types: [
+        "hair_care",
+        "restaurant",
+        "food",
+        "health",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1644,
       vicinity: "428 11th Street, San Francisco",
     },
@@ -458,7 +514,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Suppenküche",
       opening_hours: {
         open_now: false,
@@ -502,7 +559,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/shopping-71.png",
       name: "City Beer Store",
       opening_hours: {
         open_now: false,
@@ -524,7 +582,15 @@ module.exports = {
       rating: 4.6,
       reference: "",
       scope: "",
-      types: ["bar", "liquor_store", "restaurant", "food", "point_of_interest", "store", "establishment"],
+      types: [
+        "bar",
+        "liquor_store",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment",
+      ],
       user_ratings_total: 977,
       vicinity: "1148 Mission Street, San Francisco",
     },
@@ -546,7 +612,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Tommy's Joynt",
       opening_hours: {
         open_now: false,
@@ -568,7 +635,13 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["restaurant", "food", "point_of_interest", "store", "establishment"],
+      types: [
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment",
+      ],
       user_ratings_total: 3184,
       vicinity: "1101 Geary Boulevard, San Francisco",
     },
@@ -590,7 +663,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Limón Rotisserie",
       opening_hours: {
         open_now: false,
@@ -634,7 +708,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Hayes Street Grill",
       permanently_closed: true,
       photos: [
@@ -654,7 +729,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 214,
       vicinity: "320 Hayes Street, San Francisco",
     },
@@ -676,7 +757,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "Pause Wine Bar in Hayes Valley",
       opening_hours: {
         open_now: false,
@@ -698,7 +780,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 82,
       vicinity: "1666 Market Street, San Francisco",
     },
@@ -720,7 +808,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "AsiaSF",
       permanently_closed: true,
       photos: [
@@ -740,7 +829,14 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["night_club", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "night_club",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 457,
       vicinity: "201 9th Street, San Francisco",
     },
@@ -762,7 +858,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Jasper's Corner Tap and Kitchen",
       opening_hours: {
         open_now: true,
@@ -784,7 +881,13 @@ module.exports = {
       rating: 3.8,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 549,
       vicinity: "401 Taylor Street, San Francisco",
     },
@@ -806,7 +909,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "Mikkeller Bar",
       permanently_closed: true,
       photos: [
@@ -826,7 +930,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2630,
       vicinity: "34 Mason Street, San Francisco",
     },
@@ -848,7 +958,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Patxi's Pizza",
       opening_hours: {
         open_now: true,

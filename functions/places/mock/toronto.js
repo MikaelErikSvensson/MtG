@@ -20,7 +20,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Novotel Toronto Centre",
       opening_hours: {
         open_now: true,
@@ -41,7 +42,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["lodging", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1822,
       vicinity: "45 The Esplanade, Toronto",
     },
@@ -63,7 +70,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Fairmont Royal York",
       opening_hours: {
         open_now: true,
@@ -84,7 +92,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["lodging", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 8383,
       vicinity: "100 Front Street West, Toronto",
     },
@@ -106,7 +120,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "HOTEL OCHO",
       opening_hours: {
         open_now: true,
@@ -127,7 +142,14 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["lodging", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "lodging",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 502,
       vicinity: "195 Spadina Avenue, Toronto",
     },
@@ -149,7 +171,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Marquis Lounge and Bistro",
       photos: [
         {
@@ -167,7 +190,13 @@ module.exports = {
       rating: 4.4,
       reference: "",
       scope: "",
-      types: ["restaurant", "bar", "food", "point_of_interest", "establishment"],
+      types: [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 9,
       vicinity: "92 Peter Street, Toronto",
     },
@@ -189,7 +218,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Oliver & Bonacini Café Grill, Yonge & Front",
       opening_hours: {
         open_now: false,
@@ -211,7 +241,14 @@ module.exports = {
       rating: 4,
       reference: "",
       scope: "",
-      types: ["restaurant", "night_club", "bar", "food", "point_of_interest", "establishment"],
+      types: [
+        "restaurant",
+        "night_club",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1382,
       vicinity: "33 Yonge Street, Toronto",
     },
@@ -233,7 +270,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Adega Restaurante",
       permanently_closed: true,
       photos: [
@@ -275,7 +313,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Terroni",
       opening_hours: {
         open_now: true,
@@ -319,7 +358,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Keg Steakhouse + Bar - York Street",
       permanently_closed: true,
       photos: [
@@ -361,7 +401,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Jump Restaurant",
       permanently_closed: true,
       photos: [
@@ -381,7 +422,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 781,
       vicinity: "18 Wellington Street West, Toronto",
     },
@@ -403,7 +450,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Senator",
       opening_hours: {
         open_now: false,
@@ -447,7 +495,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Donatello Restaurant",
       opening_hours: {
         open_now: false,
@@ -491,7 +540,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Canoe",
       opening_hours: {
         open_now: false,
@@ -513,7 +563,13 @@ module.exports = {
       rating: 4.5,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 2019,
       vicinity: "66 Wellington Street West 54th floor, Toronto",
     },
@@ -535,7 +591,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Jack Astor's Bar & Grill",
       opening_hours: {
         open_now: true,
@@ -557,7 +614,13 @@ module.exports = {
       rating: 4.1,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 4973,
       vicinity: "144 Front Street West, Toronto",
     },
@@ -579,7 +642,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Salad King",
       opening_hours: {
         open_now: true,
@@ -623,7 +687,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "IL FORNELLO on King",
       permanently_closed: true,
       photos: [
@@ -643,7 +708,15 @@ module.exports = {
       rating: 4.1,
       reference: "",
       scope: "",
-      types: ["meal_delivery", "meal_takeaway", "bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_delivery",
+        "meal_takeaway",
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 763,
       vicinity: "214 King Street West, Toronto",
     },
@@ -665,7 +738,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Little India Restaurant",
       opening_hours: {
         open_now: true,
@@ -687,7 +761,13 @@ module.exports = {
       rating: 4,
       reference: "",
       scope: "",
-      types: ["meal_takeaway", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1976,
       vicinity: "255 Queen Street West, Toronto",
     },
@@ -709,7 +789,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
       name: "Scotland Yard Pub",
       opening_hours: {
         open_now: true,
@@ -731,7 +812,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["bar", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1202,
       vicinity: "56 The Esplanade, Toronto",
     },
@@ -753,7 +840,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "309 Dhaba Indian Restaurant of Excellence",
       opening_hours: {
         open_now: true,
@@ -775,7 +863,13 @@ module.exports = {
       rating: 3.3,
       reference: "",
       scope: "",
-      types: ["meal_delivery", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_delivery",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 1410,
       vicinity: "309 King Street West, Toronto",
     },
@@ -797,7 +891,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "VOLOS",
       permanently_closed: true,
       photos: [
@@ -839,7 +934,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "PLANTA Queen",
       opening_hours: {
         open_now: true,

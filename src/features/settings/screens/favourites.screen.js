@@ -1,27 +1,27 @@
 import React, { useContext } from "react";
 import styled from "styled-components/native";
-import { List, Avatar } from "react-native-paper";
 import { TouchableOpacity } from "react-native";
-import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
+
+import { FavouritesContext } from "../../../services/favourites/favourites.context";
+
+import { SafeArea } from "../../../components/utility/safe-area.component";
 import { Text } from "../../../components/typography/text.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
-import { SafeArea } from "../../../components/utility/safe-area.component";
+
 import { RestaurantList } from "../../restaurants/components/restaurant-list.styles";
+import { RestaurantInfoCard } from "../../restaurants/components/restaurant-info-card.component";
 
-import { FavoritesContext } from "../../../services/favorites/favorites.context";
-
-const NoFavoritesArea = styled(SafeArea)`
+const NoFavouritesArea = styled(SafeArea)`
   align-items: center;
   justify-content: center;
 `;
+export const FavouritesScreen = ({ navigation }) => {
+  const { favourites } = useContext(FavouritesContext);
 
-export const FavoritesScreen = ({ navigation }) => {
-  const { favorites } = useContext(FavoritesContext);
-
-  return favorites.length ? (
+  return favourites.length ? (
     <SafeArea>
       <RestaurantList
-        data={favorites}
+        data={favourites}
         renderItem={({ item }) => {
           return (
             <TouchableOpacity
@@ -31,7 +31,7 @@ export const FavoritesScreen = ({ navigation }) => {
                 })
               }
             >
-              <Spacer postition="bottom" size="large">
+              <Spacer position="bottom" size="large">
                 <RestaurantInfoCard restaurant={item} />
               </Spacer>
             </TouchableOpacity>
@@ -41,8 +41,8 @@ export const FavoritesScreen = ({ navigation }) => {
       />
     </SafeArea>
   ) : (
-    <NoFavoritesArea>
-      <Text>No favorites yet</Text>
-    </NoFavoritesArea>
+    <NoFavouritesArea>
+      <Text center>No favourites yet</Text>
+    </NoFavouritesArea>
   );
 };

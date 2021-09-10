@@ -20,7 +20,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Mercure Antwerp City Centre",
       opening_hours: {
         open_now: true,
@@ -56,7 +57,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Elzenveld Hotel & Seminar",
       photos: [
         {
@@ -73,7 +75,16 @@ module.exports = {
       },
       reference: "",
       scope: "",
-      types: ["spa", "lodging", "restaurant", "food", "gym", "health", "point_of_interest", "establishment"],
+      types: [
+        "spa",
+        "lodging",
+        "restaurant",
+        "food",
+        "gym",
+        "health",
+        "point_of_interest",
+        "establishment",
+      ],
       vicinity: "Lange Gasthuisstraat 45, Antwerpen",
     },
     {
@@ -94,7 +105,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "HotelO",
       opening_hours: {
         open_now: false,
@@ -115,7 +127,14 @@ module.exports = {
       rating: 4.3,
       reference: "",
       scope: "",
-      types: ["travel_agency", "lodging", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "travel_agency",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 321,
       vicinity: "Handschoenmarkt 3/5, Antwerpen",
     },
@@ -137,7 +156,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "The Glorious Inn",
       opening_hours: {
         open_now: false,
@@ -174,7 +194,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Hotel Pilar",
       opening_hours: {
         open_now: true,
@@ -212,7 +233,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "De Peerdestal | Restaurant Antwerpen",
       opening_hours: {
         open_now: true,
@@ -250,7 +272,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Huis De Colvenier",
       opening_hours: {
         open_now: true,
@@ -287,7 +310,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Il Milanese by Lollapalooza",
       opening_hours: {
         open_now: true,
@@ -325,7 +349,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Het Vermoeide Model",
       opening_hours: {
         open_now: true,
@@ -363,7 +388,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "'t Fornuis",
       opening_hours: {
         open_now: false,
@@ -407,7 +433,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Lunchbox",
       opening_hours: {
         open_now: false,
@@ -429,7 +456,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["restaurant", "bar", "food", "point_of_interest", "establishment"],
+      types: [
+        "restaurant",
+        "bar",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 689,
       vicinity: "Nieuwstad 8, Antwerpen",
     },
@@ -451,7 +484,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Zuiderterras / RAS",
       opening_hours: {
         open_now: true,
@@ -473,7 +507,13 @@ module.exports = {
       rating: 4.2,
       reference: "",
       scope: "",
-      types: ["restaurant", "cafe", "food", "point_of_interest", "establishment"],
+      types: [
+        "restaurant",
+        "cafe",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 854,
       vicinity: "Ernest Van Dijckkaai 37, Antwerpen",
     },
@@ -495,7 +535,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Pazzo",
       opening_hours: {
         open_now: false,
@@ -539,7 +580,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Horta Grand Café & Art Nouveau Zaal",
       opening_hours: {
         open_now: true,
@@ -583,7 +625,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Sir Anthony Van Dijck",
       opening_hours: {
         open_now: false,
@@ -627,7 +670,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
       name: "Mañana Mañana",
       opening_hours: {
         open_now: false,
@@ -648,7 +692,15 @@ module.exports = {
       rating: 4.9,
       reference: "",
       scope: "",
-      types: ["cafe", "lodging", "restaurant", "food", "point_of_interest", "store", "establishment"],
+      types: [
+        "cafe",
+        "lodging",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "store",
+        "establishment",
+      ],
       user_ratings_total: 60,
       vicinity: "Scheldestraat 15, Antwerpen",
     },
@@ -670,7 +722,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "De Broers van Julienne",
       opening_hours: {
         open_now: true,
@@ -692,7 +745,13 @@ module.exports = {
       rating: 4.1,
       reference: "",
       scope: "",
-      types: ["meal_takeaway", "restaurant", "food", "point_of_interest", "establishment"],
+      types: [
+        "meal_takeaway",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment",
+      ],
       user_ratings_total: 335,
       vicinity: "Kasteelpleinstraat 45/47, Antwerpen",
     },
@@ -714,7 +773,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Het Gebaar",
       opening_hours: {
         open_now: false,
@@ -758,7 +818,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Da Giovanni Groenplaats TAKE OUT",
       opening_hours: {
         open_now: true,
@@ -802,7 +863,8 @@ module.exports = {
           },
         },
       },
-      icon: "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      icon:
+        "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
       name: "Bij Lam & Yin",
       opening_hours: {
         open_now: false,
