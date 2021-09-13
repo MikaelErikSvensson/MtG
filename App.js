@@ -11,12 +11,13 @@ import { Ionicons } from "@expo/vector-icons";
 import { SafeArea } from "./src/components/utility/safe-area.component";
 import { theme } from "./src/infrastructure/theme/index";
 import { Navigation } from "./src/infrastructure/navigation/index";
+import { fireBaseKey } from "./src/utils/env";
 
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCc3duSq-2l9ZoclV7sTjzpLepflq0dAsY",
+  apiKey: fireBaseKey,
   authDomain: "mealstogo-9d2fb.firebaseapp.com",
   projectId: "mealstogo-9d2fb",
   storageBucket: "mealstogo-9d2fb.appspot.com",
