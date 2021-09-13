@@ -9,3 +9,5 @@ export const isMock = true;
 
 // export const host = !isDevelopment || isAndroid ? liveHost : localHost;
 export const host = liveHost;
+
+export const fireBaseKey = "AIzaSyCc3duSq-2l9ZoclV7sTjzpLepflq0dAsY";
